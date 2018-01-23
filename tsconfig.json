@@ -1,24 +1,22 @@
 {
   "compilerOptions": {
-    "sourceMap": true,
+    "lib": ["es5", "es6", "esnext.asynciterable"],
+    "baseUrl": "src",
+    "outDir": "build",
     "target": "es5",
     "module": "commonjs",
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "declaration": true,
-    "noImplicitAny": false,
-    "noImplicitReturns": false,
-    "removeComments": true,
-    "strictNullChecks": false,
-    "rootDir": "src",
-    "outDir": "build",
-    "lib": [
-      "es6",
-      "es7",
-      "dom",
-      "esnext.asynciterable"
-    ]
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "stripInternal": true,
+    "pretty": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "declaration": true
   },
   "files": [
     "./node_modules/web3-typescript-typings/index.d.ts"
