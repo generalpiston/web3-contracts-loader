@@ -9,7 +9,7 @@ module.exports = {
     index: Path.join(sourcePath, "index.ts")
   },
   devtool: "source-map",
-  target: "web",
+  target: "node",
   output: {
     filename: "[name].js",
     path: outPath,
