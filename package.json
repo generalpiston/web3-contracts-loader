@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Load contract ABI and binary into Web3",
   "main": "build/index.js",
+  "types": "build/index.d.ts",
   "dependencies": {
     "lodash": "^4.17.4",
     "semver": "^5.5.0",

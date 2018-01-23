@@ -26,7 +26,6 @@ module.exports = {
     }]
   },
   plugins: [
-    new Webpack.HotModuleReplacementPlugin(),
     new Webpack.NamedModulesPlugin(),
     new Webpack.NoEmitOnErrorsPlugin(),
     new Webpack.optimize.AggressiveMergingPlugin()
