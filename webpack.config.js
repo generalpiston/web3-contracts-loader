@@ -17,7 +17,7 @@ module.exports = {
   },
   resolve: {
     extensions: [".ts", ".js"],
-    mainFields: ["browser", "main"]
+    mainFields: ["browser", "module", "main"]
   },
   module: {
     rules: [{
