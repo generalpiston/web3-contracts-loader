@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
-    "lib": ["es5", "es6", "esnext.asynciterable"],
+    "lib": [
+      "es5",
+      "es6",
+      "esnext.asynciterable"
+    ],
     "baseUrl": "src",
     "outDir": "build",
     "target": "es5",
