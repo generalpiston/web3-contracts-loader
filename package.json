@@ -2,8 +2,8 @@
   "name": "web3-contracts-loader",
   "version": "1.0.0",
   "description": "Load contract ABI and binary into Web3",
-  "main": "build/index.js",
-  "types": "build/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "dependencies": {
     "lodash": "^4.17.4",
     "semver": "^5.5.0",
@@ -13,14 +13,12 @@
     "@types/lodash": "^4.14.94",
     "@types/node": "^9.3.0",
     "@types/semver": "^5.4.0",
-    "@types/webpack": "^3.8.3",
-    "ts-loader": "^3.3.1",
     "typescript": "^2.6.2",
-    "web3-typescript-typings": "^0.9.4",
-    "webpack": "^3.10.0"
+    "web3-typescript-typings": "^0.9.4"
   },
   "scripts": {
-    "build": "webpack -p --progress --colors"
+    "prepare": "npm run build",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",

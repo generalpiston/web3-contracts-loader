@@ -7,8 +7,8 @@
       "esnext.asynciterable"
     ],
     "baseUrl": "src",
-    "outDir": ".",
-    "declarationDir": ".",
+    "outDir": "./lib",
+    "declarationDir": "./lib",
     "target": "es5",
     "module": "commonjs",
     "moduleResolution": "node",
