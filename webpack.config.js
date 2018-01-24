@@ -16,7 +16,7 @@ module.exports = {
     publicPath: "/"
   },
   resolve: {
-    extensions: [".ts", ".js"],
+    extensions: [".d.ts", ".ts", ".js"],
     mainFields: ["browser", "module", "main"]
   },
   module: {
