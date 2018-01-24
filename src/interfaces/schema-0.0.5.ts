@@ -15,6 +15,7 @@ export interface IABI {
   readonly name: string;
   readonly outputs: IOutput[];
   readonly payable: boolean;
+  readonly stateMutability: string;
   readonly type: string;
 };
 

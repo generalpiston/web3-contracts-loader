@@ -1,5 +1,4 @@
 import getClient from "./client";
-import ContractDefinitionLoader from "./loader";
-export * from "./interfaces";
+import ContractDefinitionLoader from "./loaders";
 export * from "./utils";
 export { getClient, ContractDefinitionLoader };
