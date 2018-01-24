@@ -22,7 +22,7 @@ module.exports = {
   module: {
     rules: [{
       test: /\.ts$/,
-      use: "awesome-typescript-loader"
+      use: "ts-loader"
     }]
   },
   plugins: [
