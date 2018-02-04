@@ -12,7 +12,7 @@ function load_100 (web3: any, abi: IABI[], address: string|null|undefined, optio
 
 export default function ContractDefinitionLoader (i: { web3: any, contractDefinition: IContractDefinition, options: any }) {
   let { web3, contractDefinition, options } = i;
-  let { contractName, networks, abi, unlinkedBinary } = contractDefinition;
+  let { contractName, networks, abi, bytecode } = contractDefinition;
   let network = _.first(_.reverse(_.sortBy(networks, "updatedAt")));
   let address: (string|null) = null;
   if (network) {
@@ -30,7 +30,7 @@ export default function ContractDefinitionLoader (i: { web3: any, contractDefini
     definition = load_100(web3, abi, address, options);
   }
 
-  definition.options.data = unlinkedBinary;
+  definition.options.data = bytecode;
 
   return definition;
 };
