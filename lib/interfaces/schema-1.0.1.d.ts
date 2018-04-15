@@ -27,7 +27,7 @@ export interface INetworks {
 export interface IContractDefinition {
     readonly contractName: string;
     readonly abi: IABI[];
-    readonly unlinkedBinary: string;
+    readonly bytecode: string;
     readonly networks: INetworks;
     readonly schemaVersion: string;
     readonly updatedAt: number;

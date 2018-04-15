@@ -39,6 +39,7 @@ export default function ContractDefinitionLoader (i: { web3: any, contractDefini
     debug(`Created contract ${contractName} unpegged.`);
   }
 
+  if (!definition.options) definition.options = {};
   definition.options.data = bytecode;
 
   return definition;

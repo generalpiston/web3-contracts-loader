@@ -39,6 +39,7 @@ export default function ContractDefinitionLoader (i: { web3: any, contractDefini
     debug(`Created contract ${contract_name} unpegged.`);
   }
 
+  if (!definition.options) definition.options = {};
   definition.options.data = unlinked_binary;
 
   return definition;
