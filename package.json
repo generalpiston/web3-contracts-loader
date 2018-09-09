@@ -24,17 +24,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abec/web3-contracts-loader.git"
+    "url": "git+https://github.com/generalpiston/web3-contracts-loader.git"
   },
-  "keywords": [
-    "web3",
-    "contracts",
-    "loader"
-  ],
+  "keywords": ["web3", "contracts", "loader"],
   "author": "Abraham Elmahrek",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/abec/web3-contracts-loader/issues"
+    "url": "https://github.com/generalpiston/web3-contracts-loader/issues"
   },
-  "homepage": "https://github.com/abec/web3-contracts-loader#readme"
+  "homepage": "https://github.com/generalpiston/web3-contracts-loader#readme"
 }
